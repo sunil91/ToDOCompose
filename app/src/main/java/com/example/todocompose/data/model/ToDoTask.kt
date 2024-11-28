@@ -1,8 +1,7 @@
-package com.example.todocompose.data
+package com.example.todocompose.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.todocompose.data.model.Priority
 import com.example.todocompose.utils.Constant.DATABASE_TABLE
 
 @Entity(tableName = DATABASE_TABLE)

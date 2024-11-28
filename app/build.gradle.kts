@@ -40,6 +40,9 @@ android {
     buildFeatures {
         compose = true
     }
+    ksp {
+        arg("room.incremental", "true") // Example for Room
+    }
 }
 
 dependencies {
